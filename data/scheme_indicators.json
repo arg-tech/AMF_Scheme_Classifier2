@@ -1,0 +1,7 @@
+{ "scheme indicators" : [
+    {"scheme": "Comparison Argumentation", "indicators" : ["compares", "similar", "equivalent", "parallel", "reminds", "is like", "just as", "the same"] },
+    {"scheme": "Symptomatic Argumentation", "indicators" : ["characteristic", "typical", "distinctive", "illustrative", "marks", "sign", "evidence", "shows", "points to", "portends", "implies", "means", "proves", "indicates", "testifies", "is a token of", "tells us something about", "apparently", "obviously", "it is clear that", "it turns out that"]},
+    {"scheme": "Causal Argumentation", "indicators" : ["is the cause of", "causes", "results in", "the means to", "the way to", "leads to", "brings about", "thus", "this way", "consequently", "as a result", "in this way", "thereby", "for this reason", "is the result of", "is the consequnce of", "is caused by", "as a result of", "through", "occasion", "contribute", "entails", "ends", "means", "you get", "follows"] }
+    
+
+] }
