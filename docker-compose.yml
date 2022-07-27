@@ -1,8 +1,8 @@
 version: '2'
 
 services:
- scheme_classifier:
-  container_name: scheme_classifier
+ scheme_classifier_xaif:
+  container_name: scheme_classifier_xaif
   build: .
   ports:
   - "8090:5000"

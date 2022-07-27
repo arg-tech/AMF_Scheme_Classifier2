@@ -176,7 +176,7 @@ class Classifier:
         i_node_dict = self.process_i_nodes(data)
         
         schemeindicators = self.load_scheme_indicators()['scheme indicators']
-        original_text = data['text']['txt']
+        original_text = data['text']
         
         original_text = self.strip_tags(original_text)
         

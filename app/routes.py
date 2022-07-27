@@ -1,4 +1,4 @@
-from flask import redirect, request, jsonify
+from flask import redirect, request, jsonify, render_template
 from . import application
 from app.classifier import Classifier
 import json
@@ -15,5 +15,6 @@ def amf_schemes():
         data = json.load(ff)
         c = Classifier()
         result = c.identify_schemes(c, data)
-    
-    return jsonify(result)
+        return jsonify(result)
+    elif request.method == 'GET':
+        return render_template('index.html')
